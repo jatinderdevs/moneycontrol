@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/moneycontrol/static/css/main.4bb57ac0.css",
+    "main.js": "/moneycontrol/static/js/main.c549996d.js",
+    "static/js/787.243047b2.chunk.js": "/moneycontrol/static/js/787.243047b2.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/moneycontrol/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/moneycontrol/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/moneycontrol/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/moneycontrol/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/moneycontrol/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/404.png": "/moneycontrol/static/media/404.284ee4082ab6bfd372bd.png",
+    "static/media/forgotpassword.png": "/moneycontrol/static/media/forgotpassword.22ec36b9f32d1a6d4178.png",
+    "static/media/resetpassword.png": "/moneycontrol/static/media/resetpassword.4b97aa6d4248be48fec5.png",
+    "static/media/signin.png": "/moneycontrol/static/media/signin.a8fab7d3f3454024bc6d.png",
+    "static/media/maisent.png": "/moneycontrol/static/media/maisent.1264fd9de25cfaa06ab5.png",
+    "static/media/signup.png": "/moneycontrol/static/media/signup.55eb3ad6e4fd98880703.png",
+    "static/media/user.png": "/moneycontrol/static/media/user.698584f825f79c2a9264.png",
+    "index.html": "/moneycontrol/index.html",
+    "main.4bb57ac0.css.map": "/moneycontrol/static/css/main.4bb57ac0.css.map",
+    "main.c549996d.js.map": "/moneycontrol/static/js/main.c549996d.js.map",
+    "787.243047b2.chunk.js.map": "/moneycontrol/static/js/787.243047b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bb57ac0.css",
+    "static/js/main.c549996d.js"
+  ]
+}
