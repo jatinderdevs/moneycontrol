@@ -1,4 +1,4 @@
 {
-  "Api": "https://moneycontrolapi.herokuapp.com",
+  "Api": "https://moneycontrolapi.onrender.com",
   "localApi": "http://localhost:5000"
 }
