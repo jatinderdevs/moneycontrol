@@ -1,0 +1,147 @@
+:root {
+  --main: #4931da;
+  --text: #afa8ba;
+  --subheading: #7a7485;
+  --highlight: #c40000;
+  --black: black;
+  --white: #fff;
+}
+* {
+  transition: ease-in-out all 350ms;
+}
+p {
+  color: #555;
+  text-transform: capitalize;
+  line-height: 1.6;
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+section {
+  padding: 60px 0;
+}
+.txtbox {
+  border: 1px solid #dfdfdf;
+  width: 100%;
+  padding: 10px 5px;
+}
+label {
+  color: var(--subheading);
+  font-size: 12px;
+}
+.customBtn {
+  background-color: var(--main);
+  color: var(--white);
+  border: 0;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #666;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 #efefef;
+}
+.customBtn:hover {
+  box-shadow: 0 0 0 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+
+  text-transform: capitalize;
+}
+a {
+  color: var(--black);
+  text-transform: capitalize;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.authLink {
+  text-align: center;
+  display: flex;
+
+  justify-content: center;
+}
+.coverimg a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  color: var(--highlight);
+}
+.socialBtn {
+  color: var(--white);
+  height: 60px;
+  width: 60px;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -1px -8px 12px 0 #efefef;
+}
+.socialLink {
+  line-height: 1px;
+}
+.socialLink li {
+  float: left;
+  margin-right: 20px;
+}
+
+.socialLink li a:hover {
+  color: #fff;
+  box-shadow: 0 0 5px #888;
+}
+.fb {
+  background: #0863d9;
+}
+.google {
+  background: var(--highlight);
+}
+.insta {
+  background: linear-gradient(to top, red, blue);
+  opacity: 0.9;
+}
+.wrapper {
+  box-shadow: 0 0 10px;
+  padding: 50px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 #efefef;
+}
+.auth {
+  padding: 40px 0;
+}
+.tbl {
+  font-size: 14px;
+  color: #444;
+  border: 1px solid #dfdffd;
+}
+.profilebox {
+  background-color: #f9fbf9;
+  padding: 40px 20px;
+}
+.profilebox h4 {
+  text-transform: capitalize;
+  color: #000;
+  padding: 10px;
+  background: #efefef;
+}
+#btnLayout{
+  display: inline-flex;
+}
+@media only screen and (max-width: 700px) {
+  .txtbox {
+    width: 85% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .txtbox {
+    width: 80% !important;
+  }
+  .authLink {
+    display: none;
+  }
+}

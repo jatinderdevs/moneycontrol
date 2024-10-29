@@ -1,0 +1,4 @@
+{
+  "Api": "https://moneycontrolapi-e7718aad5286.herokuapp.com",
+  "localApi": "http://localhost:5000"
+}
