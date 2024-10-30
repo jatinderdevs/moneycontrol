@@ -51,8 +51,7 @@ class About extends Component {
           <h3>Help</h3>
           <p>
             any help or suggestions please feel free to drop a mail at{" "}
-            <a href="mailto:jssingh134@gmail.com">Jssingh134@gmail.com</a> or
-            call to +91 9041737383
+            <a href="mailto:jssingh134@gmail.com">Jssingh134@gmail.com</a> 
           </p>
         </section>
         <Footer />
