@@ -20,7 +20,7 @@ class Cards extends Component {
       var suffixNum = Math.floor(("" + value).length / 3);
       var shortValue = "";
       for (var precision = 2; precision >= 1; precision--) {
-        shortValue = pa$eFloat(
+        shortValue = parseFloat(
           (suffixNum !== 0
             ? value / Math.pow(1000, suffixNum)
             : value
@@ -59,7 +59,7 @@ class Cards extends Component {
                   <h4 className="alert alert-success rounded-0">Earnings</h4>
                 </div>
                 <div className="card-body">
-                  <h1>$. {this.abbreviateNumber(this.state.earning)}</h1>
+                  <h1>${this.abbreviateNumber(this.state.earning)}</h1>
                   <p>
                     <i className="fa fa-clock-o"></i> Till now of{" "}
                     {moment(Date.now()).format("MMMM")}
@@ -108,7 +108,7 @@ class Cards extends Component {
                       </h4>
                     </div>
                     <div className="card-body">
-                      <h1>$. {this.abbreviateNumber(c.total)}</h1>
+                      <h1>${this.abbreviateNumber(c.total)}</h1>
                       <p>
                         <i className="fa fa-clock-o"></i> Till now of{" "}
                         {moment(Date.now()).format("MMMM")}
